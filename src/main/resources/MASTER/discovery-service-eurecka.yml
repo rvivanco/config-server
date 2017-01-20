@@ -1,0 +1,11 @@
+server:
+    port:8761
+eurecka:
+    instance:
+        hostname: localhost
+        leaseRenewalIntervalInSeconds: 5
+    client:
+        registerWithEurecka: false
+        fetchRegistry: false
+        serviceUrl:
+            defaultZone: http://${eurecka.instance.hostname}:${server.port}/eurecka/
