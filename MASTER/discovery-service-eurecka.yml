@@ -1,6 +1,6 @@
 server:
     port:8080
-eurecka:
+eureka:
     instance:
         hostname: localhost
         leaseRenewalIntervalInSeconds: 5
@@ -8,4 +8,4 @@ eurecka:
         registerWithEurecka: false
         fetchRegistry: false
         serviceUrl:
-            defaultZone: http://${eurecka.instance.hostname}:${server.port}/eurecka/
+            defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
