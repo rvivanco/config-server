@@ -5,5 +5,7 @@ spring:
     config:
       server:
         git:
-          uri:
-          search-paths:
+          uri: https://github.com/rvivanco/config-server.git
+          search-paths: MASTER
+          username: rvivanco
+          password: vivanco16+
