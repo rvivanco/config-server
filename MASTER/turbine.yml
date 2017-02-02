@@ -2,7 +2,7 @@ server:
   port: 0
 turbine:
   amqp:    
-    port: 8989
+    port: 5672
 eureka:
   client:
     serviceUrl:
