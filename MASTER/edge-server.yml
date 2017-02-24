@@ -12,7 +12,7 @@ zuul:
       path: /account-service/**
       serviceId: account-service
       stripPrefix: true
-      sensitiveHeaders: Cookie,Set-Cookie,Authorization
+      sensitiveHeaders: 
     transaction-service:
       path: /transacton-service/**
       serviceId: transaction-service
