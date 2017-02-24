@@ -11,8 +11,7 @@ zuul:
     account-service:
       path: /account-service/**
       serviceId: account-service
-      stripPrefix: true
-      sensitiveHeaders: 
+      stripPrefix: true      
     transaction-service:
       path: /transacton-service/**
       serviceId: transaction-service
